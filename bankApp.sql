@@ -1,5 +1,5 @@
-CREATE DATABASE ing;
-\c ing;
+CREATE DATABASE bank_name;
+\c bank_name;
 CREATE TABLE account_info ( id int NOT NULL, ACC_NUMBER varchar(10) UNIQUE NOT NULL,username varchar(50),TRAN_AMOUNT DECIMAL );
 CREATE SEQUENCE bank_seq START 1;
 CREATE TABLE acc_id_generator ( id int NOT NULL, PARAM_KEY varchar(10),ACC_ID int UNIQUE NOT NULL);
